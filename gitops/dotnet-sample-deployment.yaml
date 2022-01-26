@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: cicd-dotnet-sample
-          image: image-registry.openshift-image-registry.svc:5000/dojo/cicd-dotnet-sample
+          image: image-registry.openshift-image-registry.svc:5000/dojo/cicd-dotnet-sample@sha256:dbdf7cc639629f54922eac801c9c0c7510b840cf7c09719f4fc2c7b0ee3fefae
           ports:
             - containerPort: 8080
               protocol: TCP
